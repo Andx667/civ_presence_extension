@@ -2,9 +2,8 @@
 
 class CfgPatches {
     class ADDON {
-
         // Meta information for editor
-        name = ADDON_NAME;
+        name = COMPONENT_NAME;
         author = CSTRING(mod_author);
         authors[] = {"Andx [TTT]"};
 
@@ -25,7 +24,5 @@ class CfgPatches {
 
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
-
     };
-
 };

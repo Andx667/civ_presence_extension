@@ -2,3 +2,20 @@ name = "Civilian Presence Extension"
 author = "Andx"
 prefix = "cpx"
 mainprefix = "x"
+
+[files]
+include = [
+    "mod.cpp",      # These files are copied to the build directory by default
+    "meta.cpp",     # They do not need to be added to your list
+    "LICENSE",
+    "/img/*.paa",
+    "/img/*.png",
+    "logo_ca.paa",
+    "logo_co.paa",
+    "*.bikey",
+]
+exclude = [
+    "*.psd",        # By default this list is empty
+    "*.md",
+    "/.vscode/",
+]

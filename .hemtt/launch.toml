@@ -1,0 +1,26 @@
+[default]
+workshop = [    
+    "450814997",  # CBA_A3's Workshop ID
+    "463939057",  # ACE3's Workshop ID
+    "3499977893", # Advanced Developer Tools Workshop ID
+]
+
+parameters = [
+    "-noPause",
+    "-noPauseAudio",
+]
+
+[rhs]
+extends = "default"
+workshop = [
+    "843425103", # RHS AFRF Workshop ID
+    "843577117", # RHS USAF Workshop ID
+    "843593391", # RHS GREF Workshop ID
+    "843632231", # RHS SAF  Workshop ID
+]
+
+[3cbf]
+extends = "rhs"
+workshop = [
+    "1673456286", # 3CB Factions Workshop ID
+]

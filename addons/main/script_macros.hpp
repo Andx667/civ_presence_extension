@@ -9,4 +9,4 @@ class CivilianPresence_##type##:type\
     scopeCurator = 0;\
     fsmDanger = "A3\Modules_F_Tacops\Ambient\CivilianPresence\FSM\danger.fsm";\
     fsmFormation = "";\
-};
+}
