@@ -27,7 +27,7 @@ class CivilianPresence_Presets {
                 "UK3CB_ADC_C_CIV_ISL",
                 "UK3CB_ADC_C_SPOT_CHR",
                 "UK3CB_ADC_C_SPOT_ISL",
-                "UK3CB_ADC_C_WORKER",
+                "UK3CB_ADC_C_WORKER"
             };
         };
     };

@@ -1,4 +1,4 @@
-name = "ACE Wardrobe Extended {version}";
+name = "Civilian Presence Extension";
 
 author = "AWX Team";
 
