@@ -1,7 +1,8 @@
 #define COMPONENT 3CBUK_civ_presence
 #define COMPONENT_BEAUTIFIED 3CB Factions Civivlian Presence
 
-#include "\x\cpx\addons\main\script_mod.hpp"
+#include "\x\cpx\addons\main\script_mod.hpp" //change
+#include "\x\cpx\addons\main\script_macros.hpp" //change
 
 // special agent variants used by the Civilian Presence system
 #define CREATE_AGENT(type)\
