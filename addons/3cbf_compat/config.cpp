@@ -17,8 +17,21 @@ class CfgPatches {
 
         // Required addons, used for setting load order.
         // When any of the addons is missing, pop-up warning will appear when launching the game.
-        requiredAddons[] = { //ToDo 3CBF Civs
-
+        requiredAddons[] = {
+            "UK3CB_Factions_ADC_B",
+            "UK3CB_Factions_ADC_C",
+            "UK3CB_Factions_ADC_I",
+            "UK3CB_Factions_ADC_O",
+            "UK3CB_Factions_ADG_B",
+            "UK3CB_Factions_ADG_I",
+            "UK3CB_Factions_ADG_O",
+            "UK3CB_Factions_MEC_B",
+            "UK3CB_Factions_MEC_C",
+            "UK3CB_Factions_MEC_I",
+            "UK3CB_Factions_TKC_B",
+            "UK3CB_Factions_TKC_C",
+            "UK3CB_Factions_TKC_I",
+            "UK3CB_Factions_TKC_O",
         };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
