@@ -19,7 +19,7 @@ class CfgPatches {
         // When any of the addons is missing, pop-up warning will appear when launching the game.
         requiredAddons[] = { //ToDo 3CBF Civs
 
-        }; 
+        };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
         skipWhenMissingDependencies = 1;
@@ -33,4 +33,4 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
-#include "CfgCivlianPresence_Presets.hpp"
+#include "CfgCivilianPresence_Presets.hpp"
